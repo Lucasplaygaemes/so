@@ -40,7 +40,7 @@ sudo ./so
 ```
 
 # Objectives
-The objectives of so is to increase the speed and resources available to the VM, The code IS hard-coded a CPU preset, so it should be changed to make it compatible with other architectures.
+The objectives is to increase the speed and resources available to the VM, The code IS hard-coded a CPU preset, so it should be changed to make it compatible with other architectures.
 
 # Technical Notes
 - **CPU Architecture**: The IRQ affinity is currently hard-codded with the mask, (e.g:, f0). While the program detects the number of threads, you should verify the bitmask in ```main()``` to match your specific P-Core/E-Core layout.
