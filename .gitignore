@@ -1,4 +1,6 @@
 so
 so.conf
 *.o
+*.pos
+*.sv
 
