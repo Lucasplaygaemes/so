@@ -19,7 +19,7 @@
 ## Architecture
 The orchestrator follows a strict resource-lifecycle:
 
-1. **Setup*: Checks for so.conf. If missing, it enters Discovery Phase to detect hardware and ask for user preferences.
+1. **Setup**: Checks for so.conf. If missing, it enters Discovery Phase to detect hardware and ask for user preferences.
 
 2. **Detection**: Waits for the QEMU process to spawn.
 
