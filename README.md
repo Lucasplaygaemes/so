@@ -28,6 +28,7 @@ gcc so.c -o so
 
 # Run (Requires sudo for /proc and scheduling access)
 sudo ./so
+```
 
 # Objectives
 The objectives of so is to increase the speed and resources available to the VM, The code IS hard-coded a CPU preset, so it should be changed to make it compatible with other architectures.
