@@ -1,6 +1,6 @@
 # so - System Orchestrator
 
-**so** is a system utility designed to orchestrate Linux kernel resources for low-latency virtualization (KVM/QEMU).   
+**so** or (**SO**) is a system utility designed to orchestrate Linux kernel resources for low-latency virtualization (KVM/QEMU).   
 
 ## Features
 - **Memory Management**: Automated allocation of 2MB Hugepages with pro-active memory compaction to prevent fragmentation.
